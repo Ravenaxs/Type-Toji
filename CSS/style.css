@@ -34,9 +34,7 @@ aside.sidebar {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
-/* ======================== */
-/* CABEÇALHO PRINCIPAL */
-/* ======================== */
+/* HEADER PRINCIPAL */
 
 .main-header {
     background-color: #fff;
@@ -51,7 +49,7 @@ aside.sidebar {
     margin-bottom: 15px;
 }
 
-/* Logo sem texto */
+/* Logo  */
 .systec-logo {
     display: flex;
     align-items: center;
@@ -63,9 +61,9 @@ aside.sidebar {
     margin: 0 auto;
 }
 
-/* ======================== */
+
 /* MENU DE NAVEGAÇÃO */
-/* ======================== */
+
 
 .main-nav ul {
     list-style: none;
@@ -84,9 +82,9 @@ aside.sidebar {
     font-weight: bold;
 }
 
-/* ======================== */
+
 /* SELETOR DE IDIOMA */
-/* ======================== */
+
 
 .language-selector button {
     padding: 8px 12px;
@@ -96,9 +94,9 @@ aside.sidebar {
     cursor: pointer;
 }
 
-/* ======================== */
+
 /* CABEÇALHO DO PERSONAGEM */
-/* ======================== */
+
 
 .character-header-links {
     color: #777;
@@ -116,7 +114,7 @@ aside.sidebar {
     margin-bottom: 10px;
 }
 
-/* AÇÕES DO CABEÇALHO */
+/* AÇÕES DO HEADER*/
 .header-actions {
     display: flex;
     align-items: center;
@@ -165,9 +163,9 @@ aside.sidebar {
     display: block;
 }
 
-/* ======================== */
+
 /* ABAS DE NAVEGAÇÃO */
-/* ======================== */
+
 
 .tab-navigation {
     display: flex;
@@ -190,9 +188,9 @@ aside.sidebar {
     border-bottom: 2px solid #f44336;
 }
 
-/* ======================== */
+
 /* INTRODUÇÃO */
-/* ======================== */
+
 
 .intro {
     display: flex;
@@ -237,9 +235,8 @@ aside.sidebar {
     background-color: #45a049;
 }
 
-/* ======================== */
 /* WIDGET DISCORD */
-/* ======================== */
+
 
 .affiliated-discord {
     background-color: #f9f9f9;
@@ -307,7 +304,7 @@ aside.sidebar {
 }
 
 /* ======================== */
-/* RODAPÉ */
+/* FOOTER*/
 /* ======================== */
 
 footer {
@@ -318,9 +315,8 @@ footer {
     margin-top: 40px;
 }
 
-/* ======================== */
 /* RESPONSIVIDADE */
-/* ======================== */
+
 
 @media (max-width: 768px) {
     .content-wrapper {
