@@ -1,11 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toji</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toji Fushiguro - Wiki</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+
+    <!-- TODO: linkar o arquivo JavaScript quando estiver pronto -->
+    <script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
-</body>
-</html>
+
+    <!-- 1 - Header -->
+    <header class="main-header">
+        <div class="header-content">
+
+            <!-- 2 - Logo (sem texto ao lado) -->
+            <div class="systec-logo">
+                <img src="img/icones/img/Jujutsu_Kaisen_logo.png" alt="Logo Jujutsu Kaisen" />
+            </div>
+
+            <!-- 3 - Menu de navegação principal -->
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Explorar</a></li>
+                    <li><a href="#">Mídia</a></li>
+                    <li><a href="#">Mundo</a></li>
+                    <li><a href="#">Personagens</a></li>
+                    <li><a href="#">Episódios</a></li>
+                </ul>
+            </nav>
+
+            <!-- 4 - Seletor de idioma -->
+            <div class="language-selector">
+                <button lang="en">Inglês</button>
+            </div>
+        </div>
+
+        <!-- 5 - Comando de título e ações do personagem -->
+        <div class="character-header">
+
+            <!-- 6 - Caminho de navegação (breadcrumb) atualizado -->
+            <nav class="character-header-links" aria-label="Caminho de navegação">
+                <a href="#">Personagens</a> &raquo;
+                <a href="#">Usuários de Maldições</a> &raquo;
+                <a href="#">Família Zenin</a>
+            </nav>
+
+            <!-- 7 - Subtítulo -->
+            <h1>Toji Fushiguro</h1>
+
+            <!-- 8 - Botões de ação -->
+            <div class="header-actions">
+                <button title="Bloquear"><i class="fas fa-lock"></i></button>
+                <button>Ver Fonte</button>
+
+                <!-- 9 - Menu suspenso de opções -->
+                <div class="dropdown">
+                    <button title="Mais opções"><i class="fas fa-ellipsis-h"></i></button>
+                    <div class="dropdown-content">
+                        <a href="#">Opção 1</a>
+                        <a href="#">Opção 2</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 10 - Navegação por abas -->
+            <div class="tab-navigation" role="tablist">
+                <button class="tab active" role="tab">Perfil</button>
+                <button class="tab" role="tab">Sinopse</button>
+                <button class="tab" role="tab">Galeria de Imagens</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 14 - Conteúdo principal + Barra lateral -->
+    <div class="content-wrapper">
+
+        <!-- 15 - Barra lateral com widget do Discord -->
+        <aside class="sidebar">
+            <section class="affiliated-discord" aria-label="Servidor Discord Afiliado">
+                <h3>Discord Afiliado</h3>
+                <div class="discord-widget">
+                    <div class="discord-header">
+                        <div class="discord-logo"><i class="fab fa-discord"></i></div>
+                        <div class="discord-info">
+                            <span>2</span>
+                            <span>usuários online</span>
+                        </div>
+                    </div>
+
+                    <div class="discord-users">
+                        <div class="user-avatar"></div>
+                        <div class="user-avatar"></div>
