@@ -207,6 +207,7 @@ aside.sidebar {
     overflow: hidden;
     width: 300px;
 }
+/* obs;essas conf são temporarias */
 
 .main-image-container img {
     display: block;
@@ -247,6 +248,7 @@ aside.sidebar {
     padding: 15px;
     margin-bottom: 20px;
 }
+/* ainda preciso alterar umas coisas */
 
 .affiliated-discord h3 {
     color: #555;
