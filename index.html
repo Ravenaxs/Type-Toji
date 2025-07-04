@@ -8,13 +8,14 @@
 
     <!-- TODO: linkar o arquivo JavaScript quando estiver pronto -->
     <script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
-
     <!-- 1 - Header -->
     <header class="main-header">
         <div class="header-content">
-
             <!-- 2 - Logo -->
             <div class="systec-logo">
                 <img src="img/icones/img/Jujutsu_Kaisen_logo.png" alt="Logo Jujutsu Kaisen" />
@@ -38,10 +39,7 @@
         </div>
 
         <!-- 5 - Comando de título e ações do personagem -->
-
         <div class="character-header">
-          <!-- obs;falta colocar o comando em js kkkkk -->
-
             <!-- 6 - Caminho de navegação (breadcrumb) atualizado -->
             <nav class="character-header-links" aria-label="Caminho de navegação">
                 <a href="#">Personagens</a> &raquo;
@@ -91,7 +89,78 @@
                             <span>usuários online</span>
                         </div>
                     </div>
-
                     <div class="discord-users">
                         <div class="user-avatar"></div>
                         <div class="user-avatar"></div>
+                        <div class="user-avatar"></div>
+                    </div>
+                </div>
+            </section>
+        </aside>
+
+        <!-- CONTEÚDO PRINCIPAL -->
+        <main class="personagem-main">
+            <section class="intro">
+                <div class="main-image-container">
+                    <img src="img/icones/toji-1.jpg" alt="Imagem de Toji Fushiguro">
+                </div>
+                <div class="intro-text">
+                    <h2>Quem é Toji Fushiguro?</h2>
+                    <p>
+                        Toji Fushiguro, anteriormente Toji Zenin, é um dos personagens mais intrigantes e complexos do universo de
+                        <em>Jujutsu Kaisen</em>. Conhecido como "O Assassino de Feiticeiros", Toji renunciou à família Zenin após ser
+                        discriminado por não possuir energia amaldiçoada. Mesmo assim, tornou-se um assassino letal, usando sua força física
+                        e armas amaldiçoadas para enfrentar até os feiticeiros mais poderosos.
+                    </p>
+                    <button onclick="mostrarCuriosidade()">Ver Curiosidade</button>
+                    <p id="curiosidade"></p>
+                </div>
+            </section>
+
+            <section class="sinopse hidden">
+                <h2>Sinopse</h2>
+                <p>
+                    Toji aparece inicialmente como um vilão implacável, contratado para eliminar Satoru Gojo. Sua ausência de energia
+                    amaldiçoada o torna invisível para feiticeiros, sendo um trunfo mortal. Ao longo da história, descobrimos sua
+                    conexão com Megumi Fushiguro, revelando um lado humano e trágico.
+                </p>
+            </section>
+
+            <section class="galeria hidden">
+                <h2>Galeria de Imagens</h2>
+                <div class="galeria-grid">
+                    <img src="img/icones/toji-2.jpg" alt="Toji imagem 2">
+                    <img src="img/icones/toji-3.jpg" alt="Toji imagem 3">
+                    <img src="img/icones/toji-4.webp" alt="Toji imagem 4">
+                </div>
+            </section>
+
+            <section class="linha-do-tempo">
+                <h2>Principais Momentos de Toji</h2>
+                <ul class="timeline">
+                    <li><strong>Infância:</strong> Rejeitado pela Família Zenin.</li>
+                    <li><strong>Adolescência:</strong> Se tornou mercenário e trocou de nome.</li>
+                    <li><strong>Confronto:</strong> Enfrenta Gojo e quase o mata.</li>
+                    <li><strong>Revelação:</strong> Descobrimos que é pai de Megumi.</li>
+                    <li><strong>Ressurreição:</strong> Retorna temporariamente no arco do Shibuya.</li>
+                </ul>
+            </section>
+
+            <section class="sobre-gege">
+                <h2>Sobre Gege Akutami</h2>
+                <p>
+                    Gege Akutami é o criador de <em>Jujutsu Kaisen</em>. Apesar de manter sua identidade anônima, já revelou que se inspira
+                    em histórias de horror psicológico e luta como <em>Hunter x Hunter</em> e <em>Bleach</em>. Akutami criou Toji como um
+                    anti-herói trágico, que gera reflexão sobre o que é realmente poder e legado.
+                </p>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 - SystexToji Fushiguro</p>
+    </footer>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
